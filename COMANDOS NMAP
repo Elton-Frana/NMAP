@@ -1,0 +1,17 @@
+LISTA DE COMANDOS NMAP 
+
+VER SE UMA PORTA ESPECIFICA ESTA OPEN
+#️⃣ nmap -p porta ip_do_host
+#️⃣ nmap -p 80 189.91.192.154
+
+SCANNEAR UM SUB-REDE
+#️⃣ nmap 192.168.0.0/24
+
+SCANNER COMPLETO
+#️⃣ nmap -A -T4 ip_do_host
+
+SCANNER COMPLETO 
+#️⃣ nmap ip_do_host
+
+SCANNER PORTA ESPECIFICA VER SE ESTA OPEN
+#️⃣ nmap -sS ip_do_host -p 37777
